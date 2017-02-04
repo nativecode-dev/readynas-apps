@@ -7,6 +7,6 @@ Standards-Version: 3.9.3
 Homepage: http://www.readynas.com
 
 Package: nzbget
-Architecture: all
+Architecture: armel
 Depends: ${misc:Depends}, readynasos (>= 6.0.5~T1271)
 Description: NZBGet
