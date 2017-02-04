@@ -1,0 +1,12 @@
+Source: radarr
+Section: contrib
+Priority: extra
+Maintainer: Mike Pham <support@nativecode.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.readynas.com
+
+Package: radarr
+Architecture: all
+Depends: ${misc:Depends}, readynasos (>= 6.0.5~T1271), mono-complete (>= 3.2.8+dfsg-10)
+Description: Radarr

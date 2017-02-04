@@ -1,0 +1,13 @@
+<Application resource-id="sonarr">
+  <Name>Sonarr</Name>
+  <Author>Mike Pham (support@nativecode.com)</Author>
+  <Version>2.0.0.4472</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>http://localhost:8989/</LaunchURL>
+  <ReservePort>8989</ReservePort>
+  <InfoURL>https://sonarr.tv</InfoURL>
+  <DebianPackage>sonarr</DebianPackage>
+  <ServiceName>fvapp-sonarr.service</ServiceName>
+  <Description lang="en-us">Sonarr</Description>
+</Application>

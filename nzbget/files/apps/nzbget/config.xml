@@ -1,0 +1,13 @@
+<Application resource-id="nzbget">
+  <Name>NZBGet</Name>
+  <Author>Mike Pham (support@nativecode.com)</Author>
+  <Version>17.1</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>http://localhost:6789/</LaunchURL>
+  <ReservePort>6789</ReservePort>
+  <InfoURL>http://nzbget.net</InfoURL>
+  <DebianPackage>nzbget</DebianPackage>
+  <ServiceName>fvapp-nzbget.service</ServiceName>
+  <Description lang="en-us">NZBGet</Description>
+</Application>

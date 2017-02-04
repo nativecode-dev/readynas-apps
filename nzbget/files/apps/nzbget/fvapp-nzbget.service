@@ -1,0 +1,17 @@
+[Unit]
+Description=NZBGet
+Documentation=http://nzbget.net/Documentation
+After=network.target
+
+[Service]
+User=admin
+Group=admin
+Type=forking
+ExecStart=/apps/nzbget/lib/nzbget -D
+ExecStop=/apps/nzbget/lib/nzbget -Q
+ExecReload=/bin/kill -O
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

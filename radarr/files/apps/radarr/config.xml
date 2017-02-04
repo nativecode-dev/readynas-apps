@@ -1,0 +1,13 @@
+<Application resource-id="radarr">
+  <Name>Radarr</Name>
+  <Author>Mike Pham (support@nativecode.com)</Author>
+  <Version>0.2.0.267</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>http://localhost:7878/</LaunchURL>
+  <ReservePort>7878</ReservePort>
+  <InfoURL>https://github.com/Radarr/Radarr</InfoURL>
+  <DebianPackage>radarr</DebianPackage>
+  <ServiceName>fvapp-radarr.service</ServiceName>
+  <Description lang="en-us">Radarr</Description>
+</Application>
